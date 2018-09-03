@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace CrossExchange
+namespace CrossExchange.Repository
 {
     public abstract class GenericRepository<T> : IGenericRepository<T>
         where T : class, new()

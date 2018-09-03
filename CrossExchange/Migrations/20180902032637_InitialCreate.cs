@@ -69,22 +69,22 @@ namespace CrossExchange.Migrations
                 columns: new[] { "Id", "Rate", "Symbol", "TimeStamp" },
                 values: new object[,]
                 {
-                    { 15, 95m, "CBI", new DateTime(2018, 8, 13, 7, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 14, 98m, "CBI", new DateTime(2018, 8, 13, 6, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 13, 100m, "CBI", new DateTime(2018, 8, 13, 5, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 12, 87m, "CBI", new DateTime(2018, 8, 13, 4, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 11, 105m, "CBI", new DateTime(2018, 8, 13, 3, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 10, 96m, "CBI", new DateTime(2018, 8, 13, 2, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 16, 92m, "CBI", new DateTime(2018, 8, 13, 8, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 9, 91m, "CBI", new DateTime(2018, 8, 13, 1, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 7, 97m, "REL", new DateTime(2018, 8, 13, 7, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 6, 96m, "REL", new DateTime(2018, 8, 13, 6, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 5, 110m, "REL", new DateTime(2018, 8, 13, 5, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 4, 89m, "REL", new DateTime(2018, 8, 13, 4, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, 100m, "REL", new DateTime(2018, 8, 13, 3, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, 95m, "REL", new DateTime(2018, 8, 13, 2, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 8, 99m, "REL", new DateTime(2018, 8, 13, 8, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 1, 90m, "REL", new DateTime(2018, 8, 13, 1, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 15, 95.0m, "CBI", new DateTime(2018, 8, 13, 7, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 14, 98.0m, "CBI", new DateTime(2018, 8, 13, 6, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 13, 100.0m, "CBI", new DateTime(2018, 8, 13, 5, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 12, 87.0m, "CBI", new DateTime(2018, 8, 13, 4, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 11, 105.0m, "CBI", new DateTime(2018, 8, 13, 3, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 10, 96.0m, "CBI", new DateTime(2018, 8, 13, 2, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 16, 92.0m, "CBI", new DateTime(2018, 8, 13, 8, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 9, 91.0m, "CBI", new DateTime(2018, 8, 13, 1, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 7, 97.0m, "REL", new DateTime(2018, 8, 13, 7, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 6, 96.0m, "REL", new DateTime(2018, 8, 13, 6, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 5, 110.0m, "REL", new DateTime(2018, 8, 13, 5, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 4, 89.0m, "REL", new DateTime(2018, 8, 13, 4, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 3, 100.0m, "REL", new DateTime(2018, 8, 13, 3, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 2, 95.0m, "REL", new DateTime(2018, 8, 13, 2, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 8, 99.0m, "REL", new DateTime(2018, 8, 13, 8, 0, 0, 0, DateTimeKind.Unspecified) },
+                    { 1, 90.0m, "REL", new DateTime(2018, 8, 13, 1, 0, 0, 0, DateTimeKind.Unspecified) }
                 });
 
             migrationBuilder.InsertData(

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CrossExchange
+namespace CrossExchange.Model
 {
     public class TradeModel
     {

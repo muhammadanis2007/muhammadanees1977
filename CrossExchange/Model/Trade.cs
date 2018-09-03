@@ -1,4 +1,4 @@
-﻿namespace CrossExchange
+﻿namespace CrossExchange.Model
 {
     public class Trade
     {

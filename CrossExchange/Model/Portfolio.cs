@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace CrossExchange
+namespace CrossExchange.Model
 {
     public class Portfolio
     {

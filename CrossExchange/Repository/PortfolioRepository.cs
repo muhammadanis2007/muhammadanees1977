@@ -1,7 +1,9 @@
 using System.Linq;
+using CrossExchange.Model;
+using CrossExchange.Repository;
 using Microsoft.EntityFrameworkCore;
 
-namespace CrossExchange
+namespace CrossExchange.Repository
 {
     public class PortfolioRepository : GenericRepository<Portfolio>, IPortfolioRepository
     {

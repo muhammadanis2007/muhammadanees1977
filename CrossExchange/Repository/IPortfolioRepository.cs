@@ -1,6 +1,7 @@
-﻿using System.Linq;
+﻿using CrossExchange.Model;
+using System.Linq;
 
-namespace CrossExchange
+namespace CrossExchange.Repository
 {
     public interface IPortfolioRepository : IGenericRepository<Portfolio>
     {

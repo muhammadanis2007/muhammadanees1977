@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CrossExchange
+namespace CrossExchange.Repository
 {
     public interface IGenericRepository<T>
     {
