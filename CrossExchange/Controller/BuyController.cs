@@ -15,7 +15,7 @@ namespace CrossExchange.Controller
     public class BuyController : ControllerBase
     {
 
-        private IShareRepository _shareRepository { get; set; }
+        private IShareRepository _shareRepository { get; set; } 
         private ITradeRepository _tradeRepository { get; set; }
         private IPortfolioRepository _portfolioRepository { get; set; }
 
