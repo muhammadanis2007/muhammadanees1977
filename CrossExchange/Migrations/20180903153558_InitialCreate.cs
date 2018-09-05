@@ -29,7 +29,7 @@ namespace CrossExchange.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     TimeStamp = table.Column<DateTime>(nullable: false),
                     Symbol = table.Column<string>(nullable: false),
-                    Rate = table.Column<decimal>(nullable: false)
+                    Rate = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -44,7 +44,7 @@ namespace CrossExchange.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Symbol = table.Column<string>(nullable: true),
                     NoOfShares = table.Column<int>(nullable: false),
-                    Price = table.Column<decimal>(nullable: false),
+                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     PortfolioId = table.Column<int>(nullable: false),
                     Action = table.Column<string>(nullable: true)
                 },

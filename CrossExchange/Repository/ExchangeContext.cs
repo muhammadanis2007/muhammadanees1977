@@ -15,6 +15,8 @@ namespace CrossExchange.Repository
 
         public ExchangeContext(DbContextOptions<ExchangeContext> options) : base(options)
         {
+            
+            this.Database.Migrate();
 
         }
 

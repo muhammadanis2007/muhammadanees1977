@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 using CrossExchange.Model;
 using CrossExchange.Repository;
 using Microsoft.AspNetCore.Mvc;
@@ -13,13 +14,13 @@ namespace CrossExchange.Controller
 
         public PortfolioController(IShareRepository shareRepository, ITradeRepository tradeRepository, IPortfolioRepository portfolioRepository)
         {
-            _portfolioRepository = portfolioRepository;
+            _portfolioRepository =  portfolioRepository;
         }
 
         [HttpGet("{portFolioid}")]
         public async  Task<IActionResult>  GetPortfolioInfo([FromRoute]int portFolioid)
         {
-            var portfolio = _portfolioRepository.GetAll().Where(x => x.Id.Equals(portFolioid));
+            var portfolio =  _portfolioRepository.GetAll().Where(x => x.Id.Equals(portFolioid));
             
             return Ok(portfolio);
         }

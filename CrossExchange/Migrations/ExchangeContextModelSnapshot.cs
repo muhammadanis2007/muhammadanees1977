@@ -25,7 +25,8 @@ namespace CrossExchange.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Rate");
+                    b.Property<decimal>("Rate")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Symbol")
                         .IsRequired();
@@ -86,7 +87,8 @@ namespace CrossExchange.Migrations
 
                     b.Property<int>("PortfolioId");
 
-                    b.Property<decimal>("Price");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Symbol");
 

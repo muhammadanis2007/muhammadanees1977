@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CrossExchange.Migrations
 {
     [DbContext(typeof(ExchangeContext))]
-    [Migration("20180902032637_InitialCreate")]
+    [Migration("20180903153558_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,7 +27,8 @@ namespace CrossExchange.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<decimal>("Rate");
+                    b.Property<decimal>("Rate")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Symbol")
                         .IsRequired();
@@ -88,7 +89,8 @@ namespace CrossExchange.Migrations
 
                     b.Property<int>("PortfolioId");
 
-                    b.Property<decimal>("Price");
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Symbol");
 
