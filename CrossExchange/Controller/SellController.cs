@@ -40,7 +40,7 @@ namespace CrossExchange.Controller
 
                             p.Name,
                             pt.Action,
-                            pt.Symbol,
+                            pt.Symbol, 
                             pt.NoOfShares,
                             ts.Rate,
                             pt.Price,
